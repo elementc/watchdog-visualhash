@@ -4,7 +4,7 @@
   "description": "Changes the background of password entry fields to a four-color visual hash.",
   "content_scripts": [
     {
-      "matches": ["*://*/"],
+      "matches": ["<all_urls>"],
       "js": ["util.js","visualhash.js"]
     }
   ],
